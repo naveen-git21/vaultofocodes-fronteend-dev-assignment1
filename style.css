@@ -1,0 +1,87 @@
+*{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+.container{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    background-color: ivory;
+    padding: 50px;
+    box-shadow: 0 0 5px dimgray;
+}
+.main-heading{
+    font-family: serif;
+    font-weight: 700;
+    font-size: 50px;
+}
+h2{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 32px;
+}
+h3{
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 26px;
+}
+p,li{
+    font-size: 20px;
+}
+.about{
+    padding: 20px;
+}
+ul{
+    list-style: circle;
+}
+.images-slider  {
+    width:80%;
+    margin: auto;
+    height: 500px;
+    text-align: center;
+}
+.images-slider img{
+    width: 80%;
+    height: 400px;
+    margin: auto; 
+}
+
+.project-1 , 
+.project-2,
+.project-3{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 5px;
+  border: 2px solid whitesmoke;
+  margin: 15px;
+}
+.project-description{
+  padding: 0px;
+  width: 55%;
+  background-color: cornsilk;
+
+}
+.project-image{
+  padding: 0px;
+  width: 45%;
+ 
+} 
+.project-container .project-image img{
+    width: 100%;
+    height: auto;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(32, 35, 35);
+    color: white;
+}
+.social-media li a img{
+    width: 50px;
+    height: 50px;
+}
